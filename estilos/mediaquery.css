@@ -14,19 +14,19 @@
 
     /* FOTO */
     section > #foto {
-        height: 600px;
+        height: 100%;
         width: 300px;
         background: url(../imagens/satan2.jpg) left center no-repeat fixed;
         background-size: cover;
+        float: left;
     }
 
 
     /* DIV FORMULÁRIO */
     section > #formulario {
-        position: relative;
-        left: 40%;
-        top: -90%;
-        width: 475px;
+        float: right;
+        width: 55%;
+        height: 100%;
     }
 
 
