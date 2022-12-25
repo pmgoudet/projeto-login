@@ -17,7 +17,7 @@ Vermelho mais claro: #940e1b
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body, html {
@@ -31,7 +31,9 @@ main {
     width: 100vw;
 }
 
-section {
+
+/* PARTE PRINCIPAL */
+section { 
     background-color: white;
     width: 300px;
     height: 600px;
@@ -42,14 +44,18 @@ section {
     position: relative;
     top: 50%;
     transform: translateY(-50%); 
+    overflow: hidden;
 }
 
-section > img {
+/* FOTO */
+section > #foto {
     display: block;
-    width: 300px;
-    border-radius: 20px 20px 0px 0px;
+    height: 250px;
+    background: url(../imagens/satan.jpg) top center no-repeat fixed;
+    background-size: cover;
 }
 
+/* FORMULÁRIO */
 section > #formulario {
     display: block;
 }
@@ -57,7 +63,7 @@ section > #formulario {
 section > #formulario > h1 {
     color: #6B020F;
     padding: 10px;
-    font-family: 'satan', 'Times New Roman', Times, serif;
+    font-family: 'satan', Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 3em;
 }

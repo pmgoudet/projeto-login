@@ -1,71 +1,33 @@
 @charset "UTF-8";
 
 
-/* ------------------ PARA TABLET ------------------ */ 
+/* ==================== PARA TABLET ==================== */ 
 
 @media screen and (min-width: 768px) {
     
     section {
-        background-color: white;
-        width: 600px;
-        height: 300px;
+        width: 90%;
+        max-width: 1000px;
+        background-position: left top;
     }
 
-    section > img {
-        border-radius: 20px 0px 0px 20px;
-        height: 300px;
+
+    /* FOTO */
+    section > #foto {
+        height: 600px;
         width: 300px;
+        background: url(../imagens/satan2.jpg) left center no-repeat fixed;
+        background-size: cover;
     }
-    
+
+
+    /* DIV FORMULÁRIO */
     section > #formulario {
-        width: 300px;
         position: relative;
-        left: 50%;
-        transform: translateY(-105%); 
-    }
-    
-
-}
-
-
-/* ------------------ PARA PC ------------------ */ 
-
-
-@media screen and (min-width: 1200px) {
-    
-    section {
-        background-color: white;
-        width: 800px;
-        height: 400px;
+        left: 40%;
+        top: -90%;
+        width: 475px;
     }
 
-    section > img {
-        border-radius: 20px 0px 0px 20px;
-        height: 400px;
-        width: 400px;
-    }
-    
-    section > #formulario {
-        width: 400px;
-        position: relative;
-        left: 50%;
-        transform: translateY(-118%); 
-    }
-
-    section > #formulario > h1 {
-        color: #6B020F;
-        padding: 10px;
-        font-family: 'satan', 'Times New Roman', Times, serif;
-        text-align: center;
-        font-size: 4.5em;
-    }
-    
-    section > #formulario > p {
-        color: #190001;
-        padding: 0px 25px;
-        text-align: justify;
-        font-size: 1.3em;
-    }
-    
 
 }
