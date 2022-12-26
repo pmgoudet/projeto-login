@@ -45,6 +45,9 @@ section {
     left: 50%;
     transform: translate(-50%, -50%); 
     overflow: hidden;
+
+    transition: width .3s, height 3s;
+    transition-timing-function: ease;
 }
 
 /* FOTO */
