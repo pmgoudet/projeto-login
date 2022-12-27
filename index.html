@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscreva-se para vender sua alma</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
@@ -17,16 +18,17 @@
                 <p>Você sonha com fama, fortuna, poder e respeito. Manipule seus amigos e massacre os inimigos. Conecte-se para saber como:</p>
                 <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
-                        <p><input type="email" name="login" id="ilogin" required placeholder="e-mail" autocomplete="email">
-                        <label for="ilogin">login</label></p>
+                        <i class="material-icons">person</i>
+                        <input type="email" name="login" id="ilogin" required placeholder="e-mail" autocomplete="email">
+                        <label for="ilogin">login</label>
                     </div>
                     <div class="campo">
-                        <p><input type="password" name="senha" id="isenha" required placeholder="senha">
-                        <label for="isenha">senha</label></p>
+                        <i class="material-icons">vpn_key</i>
+                        <input type="password" name="senha" id="isenha" required placeholder="senha" minlength="8" maxlength="20">
+                        <label for="isenha">senha</label>
                     </div>
-
-                    <p id="entrar"><input type="submit" value="Entrar"></p>
-                    <p id="senha"><input type="submit" value="Esqueci minha senha"></p>
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html" class="botao" >Esqueci a senha <i class="material-icons">mail</i></a>
                 </form>
             </div>
         </section>

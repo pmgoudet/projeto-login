@@ -61,23 +61,65 @@ section > #foto {
 /* FORMULÁRIO */
 section > #formulario {
     display: block;
+    padding: 25px;
 }
 
 section > #formulario > h1 {
     color: #6B020F;
-    padding: 10px;
     font-family: 'satan', Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 3em;
+    font-size: 3.3em;
+    padding-bottom: 20px;
 }
 
 section > #formulario > p {
     color: #190001;
-    padding: 0px 25px;
     text-align: justify;
+    padding: 0 10px 20px 10px;
 }
 
-section > #formulario > form {
-    padding: 25px;
-    color: #190001;
+section > #formulario > #campo {
+    text-align: justify;
+    padding: 5px;
+    
+}
+
+form > input[type=submit] {
+    display: block;
+    margin: auto;
+    background-color: #850111;
+    color: white;
+    font-size: 1em;
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #6B020F;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    background-color: #940e1b;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+    height: 40px;
+
+}
+
+form > a.botao:hover {
+    background-color: #6B020F;
+}
+form > a > i {
+
 }
