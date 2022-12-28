@@ -64,35 +64,41 @@ section > #formulario {
     padding: 25px;
 }
 
+/*VENDA SUA ALMA*/
 section > #formulario > h1 {
     color: #6B020F;
     font-family: 'satan', Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 3.3em;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
+/*TEXTO*/
 section > #formulario > p {
     color: #190001;
     text-align: justify;
-    padding: 0 10px 20px 10px;
+    padding: 0 10px 15px 10px;
 }
 
+/*USUARIO SENHA*/
 section > #formulario > #campo {
     text-align: justify;
     padding: 5px;
     
 }
 
+/*ENTRAR*/
 form > input[type=submit] {
     display: block;
     margin: auto;
     background-color: #850111;
     color: white;
-    font-size: 1em;
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-bottom: 5px;
     padding: 5px;
     width: 100%;
-    height: 40px;
+    height: 30px;
     font-weight: bold;
     border-radius: 5px;
     border: none;
@@ -103,23 +109,26 @@ form > input[type=submit]:hover {
     background-color: #6B020F;
 }
 
+/*ESQUECI A SENHA*/
 form > a.botao {
     display: block;
     text-align: center;
+    font-size: 0.8em;
+    width: 100%;
+    height: 22px;
+    padding-top: 8px;
     background-color: #940e1b;
     color: white;
     text-decoration: none;
-    width: 100%;
     border-radius: 5px;
-    font-size: 0.8em;
-    font-weight: bold;
-    height: 40px;
-
+    color: #de9098;
 }
 
 form > a.botao:hover {
-    background-color: #6B020F;
-}
-form > a > i {
+    background-color: #a40d1f;
 
+}
+
+form > a.botao > i {
+    font-size: 1em;
 }
