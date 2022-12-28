@@ -61,7 +61,7 @@ section > #foto {
 /* FORMULÁRIO */
 section > #formulario {
     display: block;
-    padding: 25px;
+    padding: 15px 20px 20px 20px;
 }
 
 /*VENDA SUA ALMA*/
@@ -70,14 +70,14 @@ section > #formulario > h1 {
     font-family: 'satan', Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 3.3em;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 /*TEXTO*/
 section > #formulario > p {
     color: #190001;
     text-align: justify;
-    padding: 0 10px 15px 10px;
+    padding: 0 10px 10px 10px;
 }
 
 /*USUARIO SENHA*/
@@ -87,6 +87,20 @@ section > #formulario > #campo {
     
 }
 
+/*FORMULARIO*/
+
+form > div.campo {
+    background-color: #de9098;
+    padding: 5px;
+    margin: 5px 0px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+div.campo > label {
+    display: none;
+}
+
 /*ENTRAR*/
 form > input[type=submit] {
     display: block;
@@ -94,7 +108,7 @@ form > input[type=submit] {
     background-color: #850111;
     color: white;
     font-size: 0.8em;
-    margin-top: 10px;
+    margin-top: 5;
     margin-bottom: 5px;
     padding: 5px;
     width: 100%;
@@ -125,8 +139,7 @@ form > a.botao {
 }
 
 form > a.botao:hover {
-    background-color: #a40d1f;
-
+    background-color: #6B020F;
 }
 
 form > a.botao > i {
