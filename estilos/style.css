@@ -90,7 +90,8 @@ section > #formulario > #campo {
 /*FORMULARIO*/
 
 form > div.campo {
-    background-color: #de9098;
+    background-color: white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.452);
     padding: 5px;
     margin: 5px 0px;
     height: 30px;
@@ -100,6 +101,12 @@ form > div.campo {
 div.campo > label {
     display: none;
 }
+
+form > div.campo > i {
+    color: #6B020F;
+
+}
+
 
 /*ENTRAR*/
 form > input[type=submit] {
