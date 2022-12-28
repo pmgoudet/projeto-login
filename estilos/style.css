@@ -21,12 +21,13 @@ Vermelho mais claro: #940e1b
 }
 
 body, html {
-    background-color: #850111;
     height: 100vh;
     width: 100vw;
 }
 
 main {
+    background-image: url(../imagens/fogo.jpg);
+    background-size: cover;
     height: 100vh;
     width: 100vw;
 }
@@ -66,7 +67,7 @@ section > #formulario {
 
 /*VENDA SUA ALMA*/
 section > #formulario > h1 {
-    color: #6B020F;
+    color: #940e1b;
     font-family: 'satan', Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 3.3em;
@@ -90,7 +91,7 @@ section > #formulario > #campo {
 /*FORMULARIO*/
 
 form > div.campo {
-    background-color: white;
+    background-color: #940e1b;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.452);
     padding: 5px;
     margin: 5px 0px;
@@ -103,8 +104,19 @@ div.campo > label {
 }
 
 form > div.campo > i {
-    color: #6B020F;
+    color: white;
+    font-size: 2em;
+    padding: 01px;
+}
 
+div.campo > input {
+    background-color: white;
+    font-size: 1em;
+    height: 100%;
+    border: 0;
+    border-radius: 3px;
+    width: calc(100% - 40px);
+    transform: translateY(-43%);
 }
 
 
@@ -112,7 +124,7 @@ form > div.campo > i {
 form > input[type=submit] {
     display: block;
     margin: auto;
-    background-color: #850111;
+    background-color: #940e1b;
     color: white;
     font-size: 0.8em;
     margin-top: 5;
