@@ -3,8 +3,9 @@
 
 /* ==================== PARA TABLET ==================== */ 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1099px) {
     
+    /* PARTE PRINCIPAL */
     section {
         width: 90%;
         max-width: 1000px;
@@ -14,24 +15,134 @@
 
     /* FOTO */
     section > #foto {
+        display: inline-block;
         height: 600px;
         width: 300px;
         background: url(../imagens/satan2.jpg) left center no-repeat fixed;
         background-size: cover;
     }
 
-
+    
     /* DIV FORMULÁRIO */
-
     section > #formulario {
-        position: relative;
-        left: 40%;
-        top: -90%;
+        display: inline-block;
 
-        width: 475px; /*VER ISSO AQUI*/
-        max-width: ;
+        width: 50%;
+        padding: 0;
+
+        position: relative;
+        top: -18%;
+        left: 5%;
 
     }
 
+    /*VENDA SUA ALMA*/
+        section > #formulario > h1 {
+        font-size: 3.6em;
+        margin-bottom: 20px;
+    }
+
+    /*TEXTO*/
+    section > #formulario > p {
+        font-size: 1.3em;
+        max-width: 450px;
+        margin-bottom: 30px;
+    }
+
+    /*USUARIO E SENHA*/
+    form > div.campo {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    /* ENTRAR */
+    form > input[type=submit] {
+        width: 72%;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    /*ESQUECI SENHA*/
+    form > a.botao {
+        width: 72%;
+        height: 30px;
+        padding-top: 10px;
+        margin: auto;
+    }
 
 }
+
+@media screen and (min-width: 1100px) {
+
+    /* PARTE PRINCIPAL */
+    section {
+        width: 90%;
+        max-width: 1000px;
+        background-position: left top;
+    }
+
+
+    /* FOTO */
+    section > #foto {
+        display: inline-block;
+        height: 600px;
+        width: 300px;
+        background: url(../imagens/satan2.jpg) left center no-repeat fixed;
+        background-size: cover;
+    }
+
+    
+    /* DIV FORMULÁRIO */
+    section > #formulario {
+        display: inline-block;
+        padding: 0;
+
+        position: relative;
+        top: -18%;
+        left: 11%;
+
+    }
+
+    /*VENDA SUA ALMA*/
+        section > #formulario > h1 {
+        font-size:5em;
+        margin-bottom: 20px;
+    }
+
+    /*TEXTO*/
+    section > #formulario > p {
+        font-size: 1.3em;
+        max-width: 450px;
+        margin-bottom: 30px;
+    }
+
+    /*USUARIO E SENHA*/
+    form > div.campo {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    /* ENTRAR */
+    form > input[type=submit] {
+        width: 72%;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    /*ESQUECI SENHA*/
+    form > a.botao {
+        width: 72%;
+        height: 30px;
+        padding-top: 10px;
+        margin: auto;
+    }
+}
+
+/*
+- centralizar o #formulario em relação à parte branca da section
+- margem em cima
+
+
+*/
