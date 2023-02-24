@@ -138,9 +138,22 @@
         padding-top: 10px;
         margin: auto;
     }
-}
 
-/*
-- centralizar o #formulario em relação à parte branca da section
-- margem em cima
-*/
+
+/*==================== CELULAR DEITADO ===============*/
+
+
+    @media screen and (max-height: 550px) {
+
+        /* PARTE PRINCIPAL */
+        header {
+            height: 100px;
+            width: 100vw;
+        }
+
+
+
+} }
+
+/*- centralizar o #formulario em relação à parte branca da section
+- margem em cima*/ 

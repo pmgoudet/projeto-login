@@ -33,6 +33,11 @@ main {
 }
 
 
+header {
+    height: 0px;
+    width: 0px;
+}
+
 /* PARTE PRINCIPAL */
 section { 
     background-color: white;
